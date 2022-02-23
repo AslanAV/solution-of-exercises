@@ -4,26 +4,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/dd2d343814360801a8f6/maintainability)](https://codeclimate.com/github/AslanAV/php-project-lvl2/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/dd2d343814360801a8f6/test_coverage)](https://codeclimate.com/github/AslanAV/php-project-lvl2/test_coverage)
 
-## Setup
-```sh
-$ git clone https://github.com/AslanAV/solution-of-exercises
-
-$ make install
-```
-
-## Run tests & linter
-```sh
-$ make test
-
-$ make lint
-
-$ make lint-fix
-```
-
-## Test Coverage
-```sh
-$ make test-coverage
-```
 
 # Exercises ATM
 
