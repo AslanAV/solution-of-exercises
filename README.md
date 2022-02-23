@@ -27,8 +27,7 @@ $ make test-coverage
 
 # Exercises ATM
 
-- Написать функцию которая посчитает минимальное и максимальное количество 
-- купюр для выдачи запрошенной суммы
+- Написать функцию которая посчитает минимальное и максимальное количество купюр для выдачи запрошенной суммы
 
 - [src/Atm machine/bankomat.php](https://github.com/AslanAV/solution-of-exercises/blob/861576c7df8428d45dd42b7ea4a081df963b2d25/src/Atm%20machine/bankomat.php#L1)
 
