@@ -7,12 +7,14 @@
             "Tests\\": "tests/",
             "GameIsPalindrome\\": "src/GameIsPalindrome/",
             "AtmMachine\\": "src/AtmMachine/",
-            "GeneratePhrase\\": "src/GeneratePhrase/"
+            "GeneratePhrase\\": "src/GeneratePhrase/",
+            "HammingWeight\\": "src/HammingWeight/"
         },
         "files" : [
             "src/GameIsPalindrome/Engine.php",
             "src/AtmMachine/CashMax.php",
-            "src/AtmMachine/CashMin.php"
+            "src/AtmMachine/CashMin.php",
+            "src/HammingWeight/HammingWeight.php"
         ]
     },
     "authors": [

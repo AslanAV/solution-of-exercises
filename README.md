@@ -12,5 +12,8 @@
 - ### [GeneratePhrase / index.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/GeneratePhrase/index.php) (-)
     - Написать сайт с выводом рандомных картинок и цитат
 
+- ### [HammingWeight / HammingWeight.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/HammingWeight/HammingWeight.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/HammingWeightTest.php))
+  - решить задачу вес Хэмминга [https://ru.hexlet.io/blog/posts/ves-hemminga](https://ru.hexlet.io/blog/posts/ves-hemminga?utm_source=telegram&utm_medium=social&utm_campaign=reshaem-zadachu-kompyuternye-shahmaty-i-ve)
+
 - ### [1]() ([2]())
   - Написать
