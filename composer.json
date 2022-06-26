@@ -4,9 +4,10 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "GameIsPalindrome\\": "src/GameIsPalindrome/",
             "Tests\\": "tests/",
-            "AtmMachine\\": "src/AtmMachine/"
+            "GameIsPalindrome\\": "src/GameIsPalindrome/",
+            "AtmMachine\\": "src/AtmMachine/",
+            "GeneratePhrase\\": "src/GeneratePhrase/"
         },
         "files" : [
             "src/GameIsPalindrome/Engine.php",
