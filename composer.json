@@ -5,10 +5,13 @@
     "autoload": {
         "psr-4": {
             "GameIsPalindrome\\": "src/GameIsPalindrome/",
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "AtmMachine\\": "src/AtmMachine/"
         },
         "files" : [
-            "src/GameIsPalindrome/Engine.php"
+            "src/GameIsPalindrome/Engine.php",
+            "src/AtmMachine/CashMax.php",
+            "src/AtmMachine/CashMin.php"
         ]
     },
     "authors": [

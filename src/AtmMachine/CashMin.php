@@ -1,25 +1,17 @@
 <?php
 
-namespace Aslan\SolutionOfExercises\AtmMachine\CashMin;
-
-$cashMachineData = [
-    5000 => 5,
-    1000 => 3,
-    500 => 3,
-    100 => 1,
-    50 => 10,
-];
+namespace Src\AtmMachine\CashMin;
 
 function getCashMin(int $sum, array $cashMachineData): array
 {
-    
     $minCashOut = min(array_keys($cashMachineData));
     if ($sum % $minCashOut !== 0) {
-        throw new \Exception('Сумма некратна');
+        return ['Сумма не кратна'];
     }
     if ($sum < 0) {
-        throw new \Exception('Сумма меньше 0');
+        return ['Сумма меньше 0'];
     }
+
     $result = [
         50 => 0,
         100 => 0,
@@ -37,13 +29,13 @@ function getCashMin(int $sum, array $cashMachineData): array
                 unset($prevBills[count($prevBills) - 1]);
                 $prevBill = $prevBills[count($prevBills) - 1];
             }
-            $result[$prevBill] -= 1;
+            $result[$prevBill]--;
             $sum += $prevBill;
         }
         for ($i = 0; $i < $count; $i++) {
             if ($sum > 0) {
                 $sum -= $bill;
-                $result[$bill] += 1;
+                $result[$bill]++;
             }
         }
         $prevBills[] = $bill;
@@ -53,18 +45,9 @@ function getCashMin(int $sum, array $cashMachineData): array
     foreach ($result as $coin => $amount) {
         $sumBill += $coin * $amount;
     }
-    print_r($sumBill);
-    print_r("\n");
+
     if ($needSum !== $sumBill) {
-        throw new \Exception('Сумма недостаточна');
+        return ['Сумма недостаточна'];
     }
-    return  $result;
-} 
-
-
-// var_dump(getCashMin(3500, $cashMachineData));
-// var_dump(getCashMin(104500, $cashMachineData));
-// var_dump(getCashMin(351, $cashMachineData));
-// var_dump(getCashMin(150, $cashMachineData));
-// var_dump(getCashMin(750, $cashMachineData));
-var_dump(getCashMin(-750, $cashMachineData));
+    return $result;
+}

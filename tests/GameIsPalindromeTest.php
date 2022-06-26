@@ -19,4 +19,5 @@ class GameIsPalindromeTest extends TestCase
         $this->assertTrue(isPalindrome('радар'));
         $this->assertFalse(isPalindrome('сказка'));
     }
+
 }
