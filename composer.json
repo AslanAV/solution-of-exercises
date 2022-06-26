@@ -4,10 +4,11 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Aslan\\SolutionOfExercises\\": "src/"
+            "GameIsPalindrome\\": "src/GameIsPalindrome/",
+            "Tests\\": "tests/"
         },
         "files" : [
-            "src/GameIsPalindrom/Engine.php"
+            "src/GameIsPalindrome/Engine.php"
         ]
     },
     "authors": [
