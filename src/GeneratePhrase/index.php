@@ -1,6 +1,15 @@
 <?php
 
-require_once __DIR__ . '/../../vendor/autoload.php';
+$autoloadPath1 = __DIR__ . '/../../../autoload.php';
+$autoloadPath2 = __DIR__ . '/../../vendor/autoload.php';
+if (file_exists($autoloadPath1)) {
+    require_once $autoloadPath1;
+} else {
+    require_once $autoloadPath2;
+}
+
+use Symfony\Component\Finder\Finder;
+use Symfony\Component\Finder\SplFileInfo;
 
 function getQuotes(): array
 {
@@ -23,7 +32,7 @@ function getRandomQuote(array $quotes): string
 
 function getImage(): array
 {
-    $finder = new Symfony\Component\Finder\Finder();
+    $finder = new Finder();
     $finder->files()->in(__DIR__ . '/img');
     return  iterator_to_array($finder);
 }
@@ -31,7 +40,7 @@ function getImage(): array
 
 function getRandomImageUrl(array $images):string
 {
-    /** @var \Symfony\Component\Finder\SplFileInfo $randomImage*/
+    /** @var SplFileInfo $randomImage*/
     $randomImage = $images[array_rand($images)];
     return '/img/' . $randomImage->getFilename();
 }
