@@ -1,5 +1,8 @@
 # Solution of exercises
-###### [(CI Tests & Linter with GitHub action)](https://github.com/AslanAV/solution-of-exercises/actions)
+[![Tests & Lints](https://github.com/AslanAV/solution-of-exercises/actions/workflows/Test%20&%20Lint.yml/badge.svg)](https://github.com/AslanAV/solution-of-exercises/actions/workflows/Test%20&%20Lint.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cb985066b473c89e7663/maintainability)](https://codeclimate.com/github/AslanAV/solution-of-exercises/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cb985066b473c89e7663/maintainability)](https://codeclimate.com/github/AslanAV/solution-of-exercises/maintainability)
+
 
 - ### [AtmMachine / CashMax.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/AtmMachine/CashMax.php)  ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/AtmMachineTest.php))
   - Написать функцию которая посчитает максимальное количество купюр для выдачи запрошенной суммы из банкомата
@@ -16,5 +19,27 @@
 - ### [HammingWeight / HammingWeight.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/HammingWeight/HammingWeight.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/HammingWeightTest.php))
   - решить задачу вес Хэмминга [https://ru.hexlet.io/blog/posts/ves-hemminga](https://ru.hexlet.io/blog/posts/ves-hemminga?utm_source=telegram&utm_medium=social&utm_campaign=reshaem-zadachu-kompyuternye-shahmaty-i-ve)
 
+- ### [FizzBuzz / FizzBuzz.php]() ([2]())
+  - Написать класиическую функцию [FizzBuzz](https://t.me/hexlet_ru/2486)
+
 - ### [1]() ([2]())
   - Написать
+
+- ### [1]() ([2]())
+  - Написать
+
+- ### [1]() ([2]())
+  - Написать
+
+- ### [1]() ([2]())
+  - Написать
+
+- ### [1]() ([2]())
+  - Написать
+
+- ### [1]() ([2]())
+  - Написать
+
+ ### [1]() ([2]())
+  - Написать
+
