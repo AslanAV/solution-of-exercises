@@ -8,13 +8,15 @@
             "GameIsPalindrome\\": "src/GameIsPalindrome/",
             "AtmMachine\\": "src/AtmMachine/",
             "GeneratePhrase\\": "src/GeneratePhrase/",
-            "HammingWeight\\": "src/HammingWeight/"
+            "HammingWeight\\": "src/HammingWeight/",
+            "FizzBuzz\\": "src/FizzBuzz/"
         },
         "files" : [
             "src/GameIsPalindrome/Engine.php",
             "src/AtmMachine/CashMax.php",
             "src/AtmMachine/CashMin.php",
-            "src/HammingWeight/HammingWeight.php"
+            "src/HammingWeight/HammingWeight.php",
+            "src/FizzBuzz/FizzBuzz.php"
         ]
     },
     "authors": [
