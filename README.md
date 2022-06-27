@@ -1,4 +1,4 @@
-# Solution of exercises
+# Solution of exercises [(CI Tests & Linter with GitHub action)](https://github.com/AslanAV/solution-of-exercises/actions)
 
 - ### [AtmMachine / CashMax.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/AtmMachine/CashMax.php)  ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/AtmMachineTest.php))
   - Написать функцию которая посчитает максимальное количество купюр для выдачи запрошенной суммы из банкомата
