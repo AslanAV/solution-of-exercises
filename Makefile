@@ -3,7 +3,7 @@ install:
 
 lint:
 	composer exec phpcs -- --standard=PSR12 src tests
-	composer exec phpstan -- --level=8 analyse src tests
+	composer exec phpstan -- --level=5 analyse src tests
 
 lint-fix:
 	composer exec phpcbf -- --standard=PSR12 src tests

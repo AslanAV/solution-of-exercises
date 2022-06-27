@@ -13,4 +13,3 @@ function hammingWeight($num): int
     }
     return $result;
 }
-

@@ -2,9 +2,10 @@
 
 namespace Tests;
 
+use PHPUnit\Framework\TestCase;
+
 use function Src\AtmMachine\CashMin\getCashMin;
 use function Src\AtmMachine\CashMax\getCashMax;
-use PHPUnit\Framework\TestCase;
 
 class AtmMachineTest extends TestCase
 {

@@ -1,5 +1,5 @@
 <?php
-
+// phpcs:disable
 $autoloadPath1 = __DIR__ . '/../../../autoload.php';
 $autoloadPath2 = __DIR__ . '/../../vendor/autoload.php';
 if (file_exists($autoloadPath1)) {
@@ -10,7 +10,7 @@ if (file_exists($autoloadPath1)) {
 
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
-
+// phpcs:enable
 function getQuotes(): array
 {
     return [
@@ -38,7 +38,7 @@ function getImage(): array
 }
 
 
-function getRandomImageUrl(array $images):string
+function getRandomImageUrl(array $images): string
 {
     /** @var SplFileInfo $randomImage*/
     $randomImage = $images[array_rand($images)];
@@ -47,7 +47,7 @@ function getRandomImageUrl(array $images):string
 
 
 ?>
-
+<?php // phpcs:disable?>
 <!doctype html>
 <html lang="en">
 <head>

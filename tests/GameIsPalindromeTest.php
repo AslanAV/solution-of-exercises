@@ -3,6 +3,7 @@
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
+
 use function GameIsPalindrome\Engine\isPalindrome;
 use function GameIsPalindrome\Engine\reverseStr;
 
@@ -19,5 +20,4 @@ class GameIsPalindromeTest extends TestCase
         $this->assertTrue(isPalindrome('радар'));
         $this->assertFalse(isPalindrome('сказка'));
     }
-
 }

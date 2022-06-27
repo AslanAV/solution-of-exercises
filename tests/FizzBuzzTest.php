@@ -3,6 +3,7 @@
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
+
 use function FizzBuzz\Fizzbuzz\fizzBuzz;
 
 class FizzBuzzTest extends TestCase
@@ -12,7 +13,7 @@ class FizzBuzzTest extends TestCase
      */
     public function testFizzBuzz($begin, $end, $expected): void
     {
-        $outString = count($expected) !== 0 ?  implode(' ', $expected): '';
+        $outString = count($expected) !== 0 ?  implode(' ', $expected) : '';
         $this->expectOutputString($outString);
         fizzBuzz($begin, $end);
     }

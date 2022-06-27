@@ -41,7 +41,7 @@ function getCashMin(int $sum, array $cashMachineData): array
         $prevBills[] = $bill;
     }
     $sumBill = 0;
-    
+
     foreach ($result as $coin => $amount) {
         $sumBill += $coin * $amount;
     }

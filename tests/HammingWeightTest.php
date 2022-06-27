@@ -3,6 +3,7 @@
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
+
 use function Src\HammingWeight\HammingWeight\hammingWeight;
 
 class HammingWeightTest extends TestCase
