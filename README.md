@@ -25,10 +25,10 @@
   - Написать функцию которая проверяет является ли стока корректной [https://t.me/hexlet_ru](https://t.me/hexlet_ru/2515)
 
 - ### [Qsort / Qsort.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/Qsort/Qsort.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/QsortTest.php))
-  - Написать
+  - Написать быструю сортировку на списках (сортировка Хоара) [https://t.me/hexlet_ru](https://t.me/hexlet_ru/2553)
 
 - ### [RotateMatrix / RotateMatrix.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/RotateMatrix/RotateMatrix.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/RotateMatrxTest.php))
-  - Написать
+  - Написать функцию вращение матрицы [https://t.me/hexlet_ru](https://t.me/hexlet_ru/2694)
 
 - ### [1]() ([Тесты]())
   - Написать
