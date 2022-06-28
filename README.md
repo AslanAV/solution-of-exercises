@@ -24,7 +24,7 @@
 - ### [Brackets / IsBalanced.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/Brackets/isBalanced.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/IsBalancedTest.php))
   - Написать функцию которая проверяет является ли стока корректной [https://t.me/hexlet_ru](https://t.me/hexlet_ru/2515)
 
-- ### [1]() ([Тесты]())
+- ### [Qsort / Qsort.php]() ([Тесты]())
   - Написать
 
 - ### [1]() ([Тесты]())

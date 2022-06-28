@@ -10,7 +10,8 @@
             "GeneratePhrase\\": "src/GeneratePhrase/",
             "HammingWeight\\": "src/HammingWeight/",
             "FizzBuzz\\": "src/FizzBuzz/",
-            "Brackets\\": "src/Brackets/"
+            "Brackets\\": "src/Brackets/",
+            "Qsort\\": "src/Qsort"
         },
         "files" : [
             "src/GameIsPalindrome/Engine.php",
@@ -18,7 +19,8 @@
             "src/AtmMachine/CashMin.php",
             "src/HammingWeight/HammingWeight.php",
             "src/FizzBuzz/FizzBuzz.php",
-            "src/Brackets/IsBalanced.php"
+            "src/Brackets/IsBalanced.php",
+            "src/Qsort/Qsort.php"
         ]
     },
     "authors": [
@@ -29,7 +31,9 @@
     ],
     "require": {
         "symfony/finder": "^6.1",
-        "wp-cli/php-cli-tools": "^0.11.13"
+        "wp-cli/php-cli-tools": "^0.11.13",
+        "hexlet/pairs":"^1.0",
+        "hexlet/pairs-data":"^1.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
