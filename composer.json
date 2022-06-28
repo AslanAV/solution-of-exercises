@@ -9,14 +9,16 @@
             "AtmMachine\\": "src/AtmMachine/",
             "GeneratePhrase\\": "src/GeneratePhrase/",
             "HammingWeight\\": "src/HammingWeight/",
-            "FizzBuzz\\": "src/FizzBuzz/"
+            "FizzBuzz\\": "src/FizzBuzz/",
+            "Brackets\\": "src/Brackets/"
         },
         "files" : [
             "src/GameIsPalindrome/Engine.php",
             "src/AtmMachine/CashMax.php",
             "src/AtmMachine/CashMin.php",
             "src/HammingWeight/HammingWeight.php",
-            "src/FizzBuzz/FizzBuzz.php"
+            "src/FizzBuzz/FizzBuzz.php",
+            "src/Brackets/isBalanced.php"
         ]
     },
     "authors": [

@@ -39,7 +39,7 @@ class AtmMachineTest extends TestCase
     }
 
 
-    protected function cashMaxDataProvider(): array
+    public function cashMaxDataProvider(): array
     {
         return [
             [-750, ['Сумма меньше 0']],

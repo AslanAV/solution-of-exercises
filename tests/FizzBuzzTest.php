@@ -18,7 +18,7 @@ class FizzBuzzTest extends TestCase
         fizzBuzz($begin, $end);
     }
 
-    private function fizzBuzzProvider()
+    public function fizzBuzzProvider(): array
     {
         return [
             [1, 2, [1, 2]],
