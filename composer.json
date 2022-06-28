@@ -11,7 +11,8 @@
             "HammingWeight\\": "src/HammingWeight/",
             "FizzBuzz\\": "src/FizzBuzz/",
             "Brackets\\": "src/Brackets/",
-            "Qsort\\": "src/Qsort"
+            "Qsort\\": "src/Qsort",
+            "RotateMatrix\\": "src/RotateMatrix"
         },
         "files" : [
             "src/GameIsPalindrome/Engine.php",
@@ -20,7 +21,8 @@
             "src/HammingWeight/HammingWeight.php",
             "src/FizzBuzz/FizzBuzz.php",
             "src/Brackets/IsBalanced.php",
-            "src/Qsort/Qsort.php"
+            "src/Qsort/Qsort.php",
+            "src/RotateMatrix/RotateMatrix.php"
         ]
     },
     "authors": [

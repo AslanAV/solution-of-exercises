@@ -24,10 +24,10 @@
 - ### [Brackets / IsBalanced.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/Brackets/isBalanced.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/IsBalancedTest.php))
   - Написать функцию которая проверяет является ли стока корректной [https://t.me/hexlet_ru](https://t.me/hexlet_ru/2515)
 
-- ### [Qsort / Qsort.php]() ([Тесты]())
+- ### [Qsort / Qsort.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/Qsort/Qsort.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/QsortTest.php))
   - Написать
 
-- ### [1]() ([Тесты]())
+- ### [RotateMatrix / RotateMatrix.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/RotateMatrix/RotateMatrix.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/RotateMatrxTest.php))
   - Написать
 
 - ### [1]() ([Тесты]())
