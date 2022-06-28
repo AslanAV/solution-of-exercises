@@ -18,7 +18,7 @@
             "src/AtmMachine/CashMin.php",
             "src/HammingWeight/HammingWeight.php",
             "src/FizzBuzz/FizzBuzz.php",
-            "src/Brackets/isBalanced.php"
+            "src/Brackets/IsBalanced.php"
         ]
     },
     "authors": [

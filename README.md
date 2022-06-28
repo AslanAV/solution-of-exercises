@@ -18,11 +18,11 @@
 - ### [HammingWeight / HammingWeight.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/HammingWeight/HammingWeight.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/HammingWeightTest.php))
   - решить задачу вес Хэмминга [https://ru.hexlet.io/blog/posts/ves-hemminga](https://ru.hexlet.io/blog/posts/ves-hemminga?utm_source=telegram&utm_medium=social&utm_campaign=reshaem-zadachu-kompyuternye-shahmaty-i-ve)
 
-- ### [FizzBuzz / FizzBuzz.php]() ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/FizzBuzzTest.php))
+- ### [FizzBuzz / FizzBuzz.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/FizzBuzz/FizzBuzz.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/FizzBuzzTest.php))
   - Написать класиическую функцию FizzBuzz [https://t.me/hexlet_ru](https://t.me/hexlet_ru/2486)
 
-- ### [1]() ([Тесты]())
-  - Написать
+- ### [Brackets / IsBalanced.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/Brackets/isBalanced.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/IsBalancedTest.php))
+  - Написать функцию которая проверяет является ли стока корректной [https://t.me/hexlet_ru](https://t.me/hexlet_ru/2515)
 
 - ### [1]() ([Тесты]())
   - Написать
