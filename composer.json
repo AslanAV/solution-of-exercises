@@ -12,7 +12,8 @@
             "FizzBuzz\\": "src/FizzBuzz/",
             "Brackets\\": "src/Brackets/",
             "Qsort\\": "src/Qsort",
-            "RotateMatrix\\": "src/RotateMatrix"
+            "RotateMatrix\\": "src/RotateMatrix",
+            "BattleShip\\": "src/BattleShip"
         },
         "files" : [
             "src/GameIsPalindrome/Engine.php",
@@ -22,7 +23,8 @@
             "src/FizzBuzz/FizzBuzz.php",
             "src/Brackets/IsBalanced.php",
             "src/Qsort/Qsort.php",
-            "src/RotateMatrix/RotateMatrix.php"
+            "src/RotateMatrix/RotateMatrix.php",
+            "src/BattleShip/BattleShip.php"
         ]
     },
     "authors": [

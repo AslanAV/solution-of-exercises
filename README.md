@@ -30,8 +30,8 @@
 - ### [RotateMatrix / RotateMatrix.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/RotateMatrix/RotateMatrix.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/RotateMatrxTest.php))
   - Написать функцию вращение матрицы [https://t.me/hexlet_ru](https://t.me/hexlet_ru/2694)
 
-- ### [1]() ([Тесты]())
-  - Написать
+- ### [BattleShip / BattleShip.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/BattleShip/BattleShip.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/BattleShipTest.php))
+  - Написать функцию подсчета кораблей, и функцию корректности расстановки кораблей [https://t.me/hexlet_ru](https://t.me/hexlet_ru/2717)
 
 - ### [1]() ([Тесты]())
   - Написать
