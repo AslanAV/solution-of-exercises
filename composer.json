@@ -13,7 +13,8 @@
             "Brackets\\": "src/Brackets/",
             "Qsort\\": "src/Qsort",
             "RotateMatrix\\": "src/RotateMatrix",
-            "BattleShip\\": "src/BattleShip"
+            "BattleShip\\": "src/BattleShip",
+            "IsContinuousSequence\\": "src/IsContinuousSequence"
         },
         "files" : [
             "src/GameIsPalindrome/Engine.php",
@@ -24,7 +25,8 @@
             "src/Brackets/IsBalanced.php",
             "src/Qsort/Qsort.php",
             "src/RotateMatrix/RotateMatrix.php",
-            "src/BattleShip/BattleShip.php"
+            "src/BattleShip/BattleShip.php",
+            "src/IsContinuousSequence/IsContinuousSequence.php"
         ]
     },
     "authors": [
