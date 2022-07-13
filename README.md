@@ -36,6 +36,12 @@
 - ### [isContinuousSequence / isContinuousSequence.php](https://github.com/AslanAV/solution-of-exercises/blob/main/src/isContinuousSequence/isContinuousSequence.php) ([Тесты](https://github.com/AslanAV/solution-of-exercises/blob/main/tests/isContinuousSequenceTest.php))
   - Написать функцию, которая проверяет, является ли последовательность возрастающей [https://t.me/hexlet_ru](https://t.me/hexlet_ru/2624)
 
+- ### [SiteOnTilda](https://github.com/AslanAV/solution-of-exercises/blob/main/src/SiteOnTilda/index.php) ([-]())
+  - Сохранить сайт, отключить блоки, изменить некоторые параметры.
+
+- ### [1]() ([Тесты]())
+  - Написать
+
 - ### [1]() ([Тесты]())
   - Написать
 
